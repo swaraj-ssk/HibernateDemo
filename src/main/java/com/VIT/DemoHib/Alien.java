@@ -8,6 +8,7 @@ public class Alien {
 	
 	@Id
 	private int aid;
+	@Transient
 	private String aname;
 	@Column(name="alien_color")
 	private String color;
