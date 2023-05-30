@@ -12,9 +12,9 @@ public class App
     public static void main( String[] args )
     {
         Alien VIT = new Alien();
-        VIT.setAid(102);
-        VIT.setAname("Pranjali");
-        VIT.setColor("Blue");
+        VIT.setAid(103);
+        VIT.setAname("Appi");
+        VIT.setColor("White");
         
         Configuration con = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Alien.class);
         

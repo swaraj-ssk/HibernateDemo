@@ -3,12 +3,13 @@ package com.VIT.DemoHib;
 import javax.persistence.*;
 
 @Entity
+@Table(name="alien_table")
 public class Alien {
 	
 	@Id
 	private int aid;
-	
 	private String aname;
+	@Column(name="alien_color")
 	private String color;
 	public int getAid() {
 		return aid;
